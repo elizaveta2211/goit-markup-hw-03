@@ -1,0 +1,216 @@
+/* Common styles */
+:root {
+    --iris-cl: #4D5AE5;
+    --ocean-cl: #404BBF;
+    --navyblue-cl: #2E2F42;
+    --green-cl: #31D0AA;
+    --slate-cl: #434455;
+    --lightslate-cl: #8E8F99;
+    --cornflower-cl: #E7E9FC;
+    --cloud-cl: #F4F4FD;
+    --white-cl: #FFFFFF;
+}
+
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--white-cl);
+    color: var(--slate-cl);
+}
+/* reset */
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
+}
+/* Base styles */
+
+.title {
+    color: var(--navyblue-cl);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+}
+.subtitle {
+    color: var(--navyblue-cl);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+
+.header {
+    
+}
+.header-nav .link {
+    color: var(--navyblue-cl);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+.logo.link {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--iris-cl);
+    text-decoration: none;
+}
+
+.studio-dark {
+    color: var(--navyblue-cl);
+}
+.header-address {
+    font-style: normal;
+}
+.header-address .link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+ 
+.header .link:hover,
+.header .link:focus {
+    color: var(--ocean-cl);
+}
+
+/**
+  |============================
+  | Hero section styles
+  |============================
+*/
+.hero {
+    background-color: var(--navyblue-cl);
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--white-cl);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero .button {
+    background-color: var(--iris-cl);
+    color: var(--white-cl);
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+    background-color: var(--ocean-cl);
+}
+
+/**
+  |============================
+  | Benefits section styles
+  |============================
+*/
+.benefits {
+    
+}
+/**
+  |============================
+  | Product section styles
+  |============================
+*/
+.product {
+    
+}
+/**
+  |============================
+  | Our team section styles
+  |============================
+*/
+.team-section {
+    background-color: var(--cloud-cl);
+
+}
+
+.team-section .item {
+    background-color: var(--white-cl);
+}
+.team-section {
+    
+}
+
+.team-section .subtitle{
+    text-align: center;
+}
+.team-section .text {
+    text-align: center;
+}
+/**
+  |============================
+  | Portfolio Section styles
+  |============================
+*/
+
+.btn.list {
+    text-align: center;
+}
+
+.portfolio .button {
+    background-color: var(--cloud-cl);
+    color: var(--iris-cl);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+.portfolio .button:hover,
+.portfolio .button:focus {
+    color: var(--white-cl);
+    background-color: var(--ocean-cl);
+}
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+.footer {
+    background-color: var(--navyblue-cl);
+}
+.studio-light {
+    color: var(--cloud-cl);
+}
+ 
+.footer .text {
+    color: var(--cloud-cl);
+}
