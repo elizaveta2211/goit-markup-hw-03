@@ -52,6 +52,8 @@ h1,h2,h3,h4,h5,h6,p {
 }
 img {
     display: block;
+    max-width: 100%;
+    max-height: auto;
 }
 /* Base styles */
 .section {
@@ -330,7 +332,7 @@ img {
 .studio-light {
     color: var(--cloud-cl);
 }
-.footer .logo link {
+.footer .logo {
     margin-bottom: 16px;
 }
 .footer .text {
