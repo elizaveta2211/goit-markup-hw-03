@@ -121,7 +121,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 .header-nav .link {
     color: var(--navyblue-cl);
@@ -129,6 +129,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 
 }
 .logo.link {
@@ -329,9 +330,10 @@ img {
 .studio-light {
     color: var(--cloud-cl);
 }
- 
+.footer .logo link {
+    margin-bottom: 16px;
+}
 .footer .text {
     color: var(--cloud-cl);
-    margin-top: 16px;
     width: 264px;
 }
